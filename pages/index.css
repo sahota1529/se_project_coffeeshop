@@ -51,6 +51,10 @@
   text-decoration: none;
 }
 
+.nav__link:hover {
+  color: black;
+}
+
 .header__title {
   max-width: 729px;
   font-size: 60px;
