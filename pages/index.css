@@ -19,6 +19,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 }
 
 .nav {
@@ -120,7 +121,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 580px;
 }
 .recipes__title {
   font-family: "Inter";
