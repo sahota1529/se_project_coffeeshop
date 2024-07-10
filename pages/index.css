@@ -170,3 +170,109 @@
   top: 24px;
   bottom: 215px;
 }
+
+.reservation {
+  padding: 100px 0 120px;
+  background-image: url(../images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.reservation__form form {
+  max-width: 385px;
+  display: block;
+  margin: 0 auto;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.form__label {
+  margin-bottom: 32px;
+  display: block;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+  gap: 12px;
+}
+
+.form__checkbox::after {
+  background-color: #2f80ed;
+  background-image: url(../images/check.svg);
+}
+
+.input::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__input {
+  display: block;
+  padding-left: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 4px;
+  height: 60px;
+}
+
+.form__button {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  height: 60px;
+  background-color: #2f80ed;
+}
+
+.form__button:hover {
+  opacity: 70%;
+  transition: opacity ease-in-out;
+}
