@@ -10,7 +10,6 @@
     />
     <meta name="author" content="Vipanpreet Kaur" />
     <meta name="keywords" content="TripleTen, TriplePeaks, Coffee, Library" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -78,8 +77,8 @@
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
-            <span>Check out some recipes we've collected for</span>
-            <span> your home-brewing convenience:</span>
+            Check out some recipes we've collected for your home-brewing
+            convenience:
           </p>
           <ul class="recipes__videos">
             <li>
@@ -114,15 +113,25 @@
                   type="text"
                   class="form__input"
                   placeholder="Name Surname"
+                  id="name"
                 />
               </label>
               <label class="form__label">
                 Number of guests *
-                <input type="number" class="form__input" placeholder="1-8" />
+                <input
+                  type="number"
+                  class="form__input"
+                  placeholder="1-8"
+                  id="guests"
+                />
               </label>
               <label class="form__label">
                 Date & Time *
-                <input type="datetime-local" class="form__input" />
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  id="datetime-local"
+                />
               </label>
               <label class="form__label">
                 Your email *
@@ -130,24 +139,28 @@
                   type="email"
                   class="form__input"
                   placeholder="email@email.com"
+                  id="email"
                 />
               </label>
             </fieldset>
             <button class="form__button">Book a table</button>
-            <label class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__checkbox" />
-              I agree with the terms of use
-            </label>
+            <span class="checkbox">
+              <label
+                for="checkbox"
+                class="form__label form__label_type_checkbox"
+              >
+                <input type="checkbox" class="form__checkbox" id="checkbox" />
+                I agree with the terms of use
+                <span class="checkbox__checked"></span>
+              </label>
+            </span>
           </form>
         </section>
         <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
-            <span
-              >We brew coffee from locally roasted, Fairtrade certified beans
-              and use biodegradable</span
-            >
-            <span>cups. All teas from our collection are $2/cup.</span>
+            >We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
           </p>
           <ul class="menu__cards">
             <li class="card">
