@@ -15,6 +15,8 @@
   line-height: 52px;
   color: white;
   max-width: 580px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .recipes__subtitle {
